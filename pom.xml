@@ -3,13 +3,14 @@
 	<parent>
 		<groupId>org.jenkins-ci.plugins</groupId>
 		<artifactId>plugin</artifactId>
-		<version>2.37</version>
+		<version>4.51</version>
+		<relativePath/>
 	</parent>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-        <jenkins.version>1.580.1</jenkins.version>
+        <jenkins.version>2.346.3</jenkins.version>
 
         <!-- Findbugs finds a million possible nullpointer exceptions due to the virtue of async calls,
                 this result is useless to us -->
@@ -17,7 +18,6 @@
 
 		<selenium.version>3.141.59</selenium.version>
 		<htmlunit.version>2.33.3</htmlunit.version>
-		<java.level>8</java.level>
 	</properties>
 	<artifactId>selenium</artifactId>
 	<version>3.141.60-SNAPSHOT</version>
